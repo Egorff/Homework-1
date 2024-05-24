@@ -4,5 +4,6 @@
 
 1. Clone Repository
 2. Create Console Project
-3. Make An Input
-4. Make The Main Mechanism
+3. Make A Compl Square Selector
+4. Make An Input
+5. Make The Main Mechanism
