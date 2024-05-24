@@ -4,4 +4,5 @@
 
 1. Clone Repository
 2. Create Console Project
-3. Show Hello World
+3. Make An Input
+4. Make The Main Mechanism
