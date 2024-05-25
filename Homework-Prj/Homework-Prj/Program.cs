@@ -11,5 +11,11 @@ namespace Homework_Prj
         static void Main(string[] args)
         {
         }
+
+        public static void Input() 
+        {
+
+        }
+
     }
 }
