@@ -21,7 +21,6 @@ namespace SimpleMathLibrary_Net_Core_4._8
 
             //Perform calculation 
 
-            //double a = Math.Sqrt(coeficients[0]);
             double p = coeficients[1] / 2;
             double q = Math.Pow(coeficients[2], 2) - p * p;
 

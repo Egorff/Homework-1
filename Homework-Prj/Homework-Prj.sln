@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-Prj", "Homework-Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMathLibrary_Net Core 4.8", "SimpleMathLibrary_Net Core 4.8\SimpleMathLibrary_Net Core 4.8.csproj", "{81B14975-E94C-484D-992B-CC73A2ECFA47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_IO", "Console_IO\Console_IO.csproj", "{7DF4A73A-CEFC-4DA3-AD09-414A9227EEFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{81B14975-E94C-484D-992B-CC73A2ECFA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B14975-E94C-484D-992B-CC73A2ECFA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B14975-E94C-484D-992B-CC73A2ECFA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF4A73A-CEFC-4DA3-AD09-414A9227EEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF4A73A-CEFC-4DA3-AD09-414A9227EEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF4A73A-CEFC-4DA3-AD09-414A9227EEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF4A73A-CEFC-4DA3-AD09-414A9227EEFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
