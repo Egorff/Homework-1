@@ -46,23 +46,10 @@ namespace Console_IO
             return res;
         }
 
-        #region Static Functions
-
-        public static Tout Convert(string value, out bool state, out string error)
+        public static string Print(List<double> res)
         {
-            Tout res;
+            return $"{res[0]}, {res[1]}, {res[2]}";
 
-            try
-            {
-                
-            }
-            catch (Exception e)
-            {
-
-                throw;
-            }
         }
-
-        #endregion
     }
 }

@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Console_IO\Console_IO.csproj">
+      <Project>{7DF4A73A-CEFC-4DA3-AD09-414A9227EEFC}</Project>
+      <Name>Console_IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleMathLibrary_Net Core 4.8\SimpleMathLibrary_Net Core 4.8.csproj">
+      <Project>{81b14975-e94c-484d-992b-cc73a2ecfa47}</Project>
+      <Name>SimpleMathLibrary_Net Core 4.8</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
