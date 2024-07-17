@@ -44,5 +44,11 @@
     <Compile Include="ConsoleIO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleMathLibrary_NetFramework\SimpleMathLibrary_NetFramework.csproj">
+      <Project>{d0491933-ca63-40a9-92ec-81fb8f363812}</Project>
+      <Name>SimpleMathLibrary_NetFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

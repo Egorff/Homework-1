@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Console_IO;
-using SimpleMathLibrary_Net_Core_4;
-using SimpleMathLibrary_Net_Core_4._8;
+using SimpleMathLibrary_NetFramework;
 
 namespace Homework_Prj
 {
@@ -40,7 +39,13 @@ namespace Homework_Prj
 
             
 
-            List<double> list = new List<double>();
+            var tuple = QuadEqvSolver.Solve(a, b, c);
+
+            Console.WriteLine(ConsoleIO<double>.Print(tuple));
+
+            Console.ReadKey();
+
+            /*List<double> list = new List<double>();
             list.Add(a);
             list.Add(b);
             list.Add(c);
@@ -48,7 +53,7 @@ namespace Homework_Prj
             List<double> res = new List<double>();
             res = Compl_Square_Selector.GetComplSquare(list);
 
-            Console.WriteLine(ConsoleIO<double>.Print(res));
+            Console.WriteLine(ConsoleIO<double>.Print(res));*/
         }
     }
 }

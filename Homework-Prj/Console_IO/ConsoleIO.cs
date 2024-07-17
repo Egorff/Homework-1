@@ -46,10 +46,11 @@ namespace Console_IO
             return res;
         }
 
-        public static string Print(List<double> res)
+        public static string Print(/*List<double> res*/ (string, string) tuple)
         {
-            return $"{res[0]}, {res[1]}, {res[2]}";
+            //return $"{res[0]}, {res[1]}, {res[2]}";
 
+            return $"{tuple.Item1}, {tuple.Item2}";
         }
     }
 }
