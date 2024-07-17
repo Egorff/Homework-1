@@ -37,7 +37,11 @@ namespace Homework_Prj
 
             var c = ConsoleIO<double>.Input("Input variable c", ConvertToDouble);
 
-            
+
+
+            Console.WriteLine($"\nYour equation: {a}x^2 {b}x {c} = 0\n");
+
+
 
             var tuple = QuadEqvSolver.Solve(a, b, c);
 

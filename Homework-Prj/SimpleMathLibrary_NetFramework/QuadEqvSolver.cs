@@ -8,7 +8,7 @@ namespace SimpleMathLibrary_NetFramework
 {
     public static class QuadEqvSolver
     {
-        public static (string, string) Solve(double a, double b, double c)
+        public static (double, double) Solve(double a, double b, double c)
         {
             double D = Math.Pow(b, 2) - 4 * a * c;
 
@@ -18,13 +18,13 @@ namespace SimpleMathLibrary_NetFramework
 
                 double x2 = (-b - Math.Sqrt(D)) / (2 * a);
 
-                return ($"x1 = {x1}", $"x2 = {x2}");
+                return (x1, x2);
             }
             else if (D == 0)
             {
                 double x = -b / (2 * a);
 
-                return ($"x = {x}", "second one doesn't exist.");
+                return (x, x);
             }
             else
             {
